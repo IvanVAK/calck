@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    background-color: rgb(73, 63, 63);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.bod{
+    height: 600px;
+    width: 800px;
+    background-color: rgb(209, 209, 209);
+    margin-top: 200px;
+    border-radius: 25px;
+}
+.firstHalf{
+    display: flex;
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+.block{
+    height: 150px;
+    width: 300px;
+
+}
+.buttons{
+    display: flex;
+    height: 50px;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonPlus{
+    height: 30px;
+    width: 45px;
+    border-radius: 10px;
+    transition: 0.3s;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.buttonPlus:hover{
+    background-color: rgb(14, 14, 14);
+    color: azure;
+    transition: 0.3s;
+}
+.input{
+    margin-left: 50px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.buttonMinus{
+    height: 30px;
+    width: 45px;
+    border-radius: 10px;
+    transition: 0.3s;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.buttonMinus:hover{
+    background-color: rgb(14, 14, 14);
+    color: azure;
+    transition: 0.3s;
+}
+.buttonSq{
+    height: 30px;
+    width: 45px;
+    border-radius: 10px;
+    transition: 0.3s;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.buttonSq:hover{
+    background-color: rgb(14, 14, 14);
+    color: azure;
+    transition: 0.3s;
+}
+.buttonDr{
+    height: 30px;
+    width: 45px;
+    border-radius: 10px;
+    transition: 0.3s;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.buttonDr:hover{
+    background-color: rgb(14, 14, 14);
+    color: azure;
+    transition: 0.3s;
+}
+.secondHalf{
+    position:absolute;
+    margin-top: -600px;
+    margin-left: 400px;
+    height: 600px;
+    width: 400px;
+    font-size: 24px;
+}
+.del{
+    display: flex;
+    height: 27px;
+    width: 63px;
+    background-color: #fff;
+    border: black solid 2px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.3s;
+    user-select: none;
+}
+.del:hover{
+    background-color: rgb(14, 14, 14);
+    color: azure;
+    transition: 0.3s;
+}
